@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+* {
+    font-size: 14px;
+}
+
+a{
+    color: #000;
+    text-decoration: none !important;
+}
+
+a:hover{
+    color: #000;
+}
+
+.main-nav {
+    background: linear-gradient(90deg, #381761 0%, #692F8C 35%, #A42B8C 100%);
+    color: #FFF;
+}
+
+.fonts {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+.fonts-D {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
+
+.fonts-B {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+}
+
+.div-profile {
+    background-color: #381761;
+    width: 40px;
+    height: 40px;
+    font-size: 1em;
+    border-radius: 50%;
+}
+
+.bg-main {
+    background: linear-gradient(90deg, #381761 0%, #692F8C 35%, #A42B8C 100%);
+    color: #FFF;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.slide-bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.98); 
+    margin-left: -300px;
+    transition: .8s all;
+    overflow-y: scroll;   
+}
+
+
+
+.slide-bar::-webkit-scrollbar {
+    display: none;
+}
+
+.btn-slide-2{
+    right: 0;
+    top: 0;
+}
+
+.slide-bar-active {
+    margin-left: 0px;
+}
+
+.res-card{
+    margin-bottom: 15px;
+}
+
+.text-limit {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.date-limit {
+    overflow: hidden;
+    max-width: 10ch;
+    max-height: 20px;
+}
+
+div.ex1 {
+    width: 100px !important;
+    height: 250px !important;
+}
+
+div.ex2 {
+    width: 250px !important;
+    height: 100px !important;
+}
+
+.hf-w-coler{
+    Color: rgb(255, 255, 255) !important ;
+}
+
+.hf-b-coler{
+    Color: rgb(0, 0, 0) !important ;
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+.sub-menu-1:hover
+{
+    display: block;
+}
+
+
+
+@media (max-width: 576px) {}
+
+@media (max-width: 768px) {
+    .res-card {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 1200px) {}
